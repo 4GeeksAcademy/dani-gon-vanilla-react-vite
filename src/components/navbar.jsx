@@ -1,4 +1,4 @@
-import { Container, Nav, Navbar, Button, Offcanvas } from "react-bootstrap";
+import { Nav, Navbar, Offcanvas } from "react-bootstrap";
 
 export const BarraNav = () => {
     return (
@@ -6,7 +6,7 @@ export const BarraNav = () => {
         <div>
             {[false].map((expand) => (
                 <Navbar key={expand} expand={expand} bg="dark" data-bs-theme="dark">
-                    <Container className="Navegacion">
+                    <container className="Navegacion">
                         <Navbar.Brand href="#">Start Bootstrap</Navbar.Brand>
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                         <Navbar.Offcanvas
@@ -24,19 +24,9 @@ export const BarraNav = () => {
                                 </Nav>
                             </Offcanvas.Body>
                         </Navbar.Offcanvas>
-                    </Container>
+                    </container>
                 </Navbar>
             ))}
-        
-            <container className="mg-3">
-                Bienvenido seas!
-                <br />
-                <Button variant="primary">Bring the action</Button>
-            </container>
-            <div>
-                Con esta página estoy aprendiendo a programar en JavaScript con React
-                y estoy usando la librería de React Bootstrap.
-            </div>
         </div>
     );
 }

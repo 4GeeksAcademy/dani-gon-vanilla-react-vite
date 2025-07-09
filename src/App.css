@@ -1,21 +1,38 @@
-footer {
-  background-color: black;
-  padding: 20px;
-  text-align: center;
-  color: white;
-}
-
 .desplegable {
-    background-color: black;
-    padding: 20px;
-    text-align: right;
-    color: white;
+  padding: 2rem 1rem;
+  text-align: center;
 }
 
- {
-    background-color: aquamarine;
+.desplegable a {
+  color: black !important;
+  margin-bottom: 1rem;
+  display: block;
+  font-weight: 500;
+}
+
+.desplegable a:hover {
+  color: blue !important;  
 }
 
 .tarjeta {
     background-color: aliceblue;
+}
+
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.texto {
+  background-image: url('https://fastly.picsum.photos/id/12/2500/1667.jpg?hmac=Pe3284luVre9ZqNzv1jMFpLihFI6lwq7TPgMSsNXw2w');
+  background-size: cover;
+  background-position: center;
+  padding: 6rem 0;
+  color: white;
+}
+
+.opciones {
+  
 }

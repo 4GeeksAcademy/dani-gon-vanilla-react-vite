@@ -3,7 +3,7 @@ export const Footer = () => {
 
     return (
         <footer>
-            <p>&copy; Playas del verano &reg; {year}</p>
+            <p>&copy; Verano inclusivo &reg; {year}</p>
         </footer>
     );
 }

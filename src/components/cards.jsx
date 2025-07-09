@@ -14,7 +14,7 @@ export const BasicCard = () => {
                         Así podrás decidir más fácilmente, qué hacer con tu familia. 
                         Todas las familias son válidas y puedes ir acompañadx de tu mascota.
                     </Card.Text>
-                    <Button variant="primary">Press para ver más</Button>
+                    <Button variant="info">Press para ver más</Button>
                 </Card.Body>
             </Card>
         </div>

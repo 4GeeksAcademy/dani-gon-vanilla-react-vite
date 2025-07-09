@@ -4,14 +4,14 @@
 }
 
 .desplegable a {
-  color: black !important;
+  color: gray !important;
   margin-bottom: 1rem;
   display: block;
   font-weight: 500;
 }
 
 .desplegable a:hover {
-  color: blue !important;  
+  color: lightskyblue !important;  
 }
 
 .tarjeta {
